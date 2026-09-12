@@ -1,0 +1,27 @@
+{
+  "name": "ai-module",
+  "version": "1.0.0",
+  "description": "SIH 2026 Plug-and-Play AI Microservice Module for Polar Knowledge & Climate Intelligence",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test-query.mjs"
+  },
+  "keywords": [
+    "sih2026",
+    "polar",
+    "ai",
+    "gemini",
+    "microservice"
+  ],
+  "author": "SIH 2026 Polar AI Team",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^2.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

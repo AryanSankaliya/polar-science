@@ -1,0 +1,23 @@
+{
+  "name": "polar-hub-backend-api",
+  "version": "1.0.0",
+  "description": "Polar Science Hub - SIH 2026 Central Backend API Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "server": "node server.js",
+    "ingest": "node ingest_data.js",
+    "test:api": "node test_api.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.7.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^6.8.0",
+    "swagger-ui-express": "^5.0.1"
+  }
+}

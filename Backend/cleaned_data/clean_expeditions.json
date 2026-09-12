@@ -1,0 +1,1947 @@
+[
+  {
+    "document_id": "exp_001",
+    "source_document": "301-311.pdf",
+    "source_path": "polar-data/04_expeditions/301-311.pdf",
+    "expedition_number": "11th ISEA",
+    "expedition_title": "Eleventh Indian Antarctic Expedition",
+    "operational_year": "1995",
+    "season": "Austral Summer",
+    "vessel": [],
+    "ports": [
+      "Maitri",
+      "Schirmacher Oasis",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Expedition Report",
+    "page_count": 11,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_002",
+    "source_document": "48_225_236.pdf",
+    "source_path": "polar-data/04_expeditions/48_225_236.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": "2022",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Himadri",
+      "Ny-Ålesund",
+      "Antarctica",
+      "Svalbard"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "However, one year later, on July 01, 2008, the Indian research base Himadri (“the abode of snow”) \nlocated in Ny-Ålesund, Svalbard was inaugurated 29.",
+      "Construction of Polar Research Vessel , May 06, 2015.",
+      "Analysis of the \nArctic debate and dialogue by strategic experts, foreign policy advisors, commentators and jou r-\nnalists have conclusively established that India cannot afford to be oblivious of the transition u n-\nderway in the Arctic."
+    ],
+    "environmental_summary": " To characterize sea ice in the Arctic using satellite data to estimate the effect of global \nwarming in the northern polar region. India’s Arctic Policy… \n 235 \neffect of these changes on critical aspects of national development such as economic security, w a-\nter security and sustainability, weather conditions and monsoon patterns, coastal erosion and gl a-\ncial melting” 54.",
+    "document_type": "Scientific Paper",
+    "page_count": 12,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_003",
+    "source_document": "ARTICLE+1.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+1.pdf",
+    "expedition_number": "1st ISEA",
+    "expedition_title": "First Indian Antarctic Expedition",
+    "operational_year": "2000",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "The pack ice stretches upto 1100 km\nfrom the coast during winter, but this very ice melts and breaks during summer. The average area of extension of pack ice, around the\ncontinent is minimum in March (2.6 x 106 km 2) and maximum in September (18xl0 6km 2).",
+    "document_type": "Scientific Paper",
+    "page_count": 17,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_004",
+    "source_document": "ARTICLE+10.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+10.pdf",
+    "expedition_number": "1st ISEA",
+    "expedition_title": "First Indian Antarctic Expedition",
+    "operational_year": "1981",
+    "season": "Austral Summer",
+    "vessel": [
+      "MV Polar Circle"
+    ],
+    "ports": [
+      "Goa",
+      "Mauritius",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "The Southern Ocean is a region of nearly continuous storm and cloudiness.",
+    "document_type": "Scientific Paper",
+    "page_count": 6,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_005",
+    "source_document": "ARTICLE+11.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+11.pdf",
+    "expedition_number": "3rd ISEA",
+    "expedition_title": "Third Indian Antarctic Expedition",
+    "operational_year": "1986",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Mauritius",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "In order to understand how these changes were reflected in the occurrence and abundance of zooplank\nton as a whole and the various groups in particular a series of zooplankton samples were collected\nduring the Third Indian Expedition to Antarctica from the edge of the pack ice upto 20°S along an obli-\nque course between 22°56 E and 56°53 E.",
+    "document_type": "Expedition Report",
+    "page_count": 14,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_006",
+    "source_document": "ARTICLE+12.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+12.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": "1983",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "First appearance of a solid iceberg was noticed at 59 0S latitude South of\nthis spot, continuous occurrence of icebergs is witnessed. Before entrance to polynya, near the\nshores of Antarctica, scattered icebergs are present, while within the polynya there are clusters of\nicebergs.",
+    "document_type": "Scientific Paper",
+    "page_count": 4,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_007",
+    "source_document": "ARTICLE+13.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+13.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": "1983",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "PHYSICAL FEATURES\nGlacier front\nThe outline of the glacier front was plotted by tachaeometry (Fig 2) from a nearby survey\nstation, the height of which as established by altimetry, is approximately 70 m."
+    ],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 3,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_008",
+    "source_document": "ARTICLE+14.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+14.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "Spraying of coal dust on the Antarctic ice shelf resulted in a dramatic augmentation in ablation.",
+    "document_type": "Scientific Paper",
+    "page_count": 3,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_009",
+    "source_document": "ARTICLE+14_1.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+14_1.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": "1981",
+    "season": "Wintering",
+    "vessel": [],
+    "ports": [
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "The temperature has a decisive effect on the matter and its properties, some materials which\nhave very useful properties may be rendered useless in extreme cold or hot conditions.",
+    "document_type": "Scientific Paper",
+    "page_count": 10,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_010",
+    "source_document": "ARTICLE+15-2.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+15-2.pdf",
+    "expedition_number": "1st ISEA",
+    "expedition_title": "First Indian Antarctic Expedition",
+    "operational_year": "1982",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "In some locations more than one iceberg was observed. In addition there were several icebergs in the calm blue waters between the coast and the pack ice in\nthe landing area (69°59'S 11°54'E).",
+    "document_type": "Scientific Paper",
+    "page_count": 11,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_011",
+    "source_document": "ARTICLE+15.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+15.pdf",
+    "expedition_number": "3rd ISEA",
+    "expedition_title": "Third Indian Antarctic Expedition",
+    "operational_year": "1986",
+    "season": null,
+    "vessel": [
+      "MV Finnpolaris"
+    ],
+    "ports": [
+      "Dakshin Gangotri",
+      "Schirmacher Oasis",
+      "Queen Maud Land",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Expedition Report",
+    "page_count": 5,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_012",
+    "source_document": "ARTICLE+16.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+16.pdf",
+    "expedition_number": "2nd ISEA",
+    "expedition_title": "Second Indian Antarctic Expedition",
+    "operational_year": "1983",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "These data are compared with th e findings in\nsamples collected by the first Indian Expedition to Antarctica (Bhandan et al 1984)\nSAMPLE COLLECTION AND EXPERIMENTAL PROCEDURES\nA3 metre deep ice core was collected by Geological Survey of India team from the transition\nzone (70 20 S, 12 E) between the inland polar ice and shelf ice."
+    ],
+    "environmental_summary": "This sample represents an important\nphysical form of ice in Antarctica which is expected to be different than the ice shelf samples collec\nted during the first Indian Expedition at 70 S 12 E.",
+    "document_type": "Scientific Paper",
+    "page_count": 4,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_013",
+    "source_document": "ARTICLE+17.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+17.pdf",
+    "expedition_number": "2nd ISEA",
+    "expedition_title": "Second Indian Antarctic Expedition",
+    "operational_year": "1983",
+    "season": null,
+    "vessel": [
+      "MV Polar Circle"
+    ],
+    "ports": [
+      "Goa",
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "During a storm which crossed near the track of the ship there was an abrupt fall of\npressure by nearly 60 mb (drop, from 1030 to 970 mb) in 24 hours Over the Antarctica continent\nitself, the average pressure was of the order of 990 mb. The lowest pressure recorded in the continent was during the blizzard when the pressure\ndropped from 985 to 970 mb.",
+    "document_type": "Scientific Paper",
+    "page_count": 12,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_014",
+    "source_document": "ARTICLE+18.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+18.pdf",
+    "expedition_number": "1st ISEA",
+    "expedition_title": "First Indian Antarctic Expedition",
+    "operational_year": "1981",
+    "season": null,
+    "vessel": [
+      "MV Polar Circle"
+    ],
+    "ports": [
+      "Mauritius",
+      "Antarctica"
+    ],
+    "route": "From Mauritius → Antarctica Recorded A",
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 5,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_015",
+    "source_document": "ARTICLE+19.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+19.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": "1981",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Dakshin Gangotri",
+      "Dronning Maud Land",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 16,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_016",
+    "source_document": "ARTICLE+2.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+2.pdf",
+    "expedition_number": "1st ISEA",
+    "expedition_title": "First Indian Antarctic Expedition",
+    "operational_year": "1981-82",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "Tengali 1\nABSTRACT\nThis paper describes the Automatic Weather Station erected by the First Indian Antarctic Expedition.",
+      "Finally, a typical print-out obtained at the site of erection, Dakshin Gangotri, is\nreproduced.",
+      "The data recorded on tape during the short sojourn at Dakshin Gangotri, was retrieved prior to\ndeparture and a new tape loaded."
+    ],
+    "environmental_summary": "All cables were strapped to supporting structures with\nnylon lock straps so that any movement in high velocity winds would not snap the cables which could\nbecome brittle in sub-zero temperatures. Being a mechanical system however, there exists the possibility that at sub-zero temperatures moving \nmetal parts could cold weld rendering the unit non-operational.",
+    "document_type": "Scientific Paper",
+    "page_count": 12,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_017",
+    "source_document": "ARTICLE+20+-2.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+20+-2.pdf",
+    "expedition_number": "3rd ISEA",
+    "expedition_title": "Third Indian Antarctic Expedition",
+    "operational_year": "1986",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Mauritius",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Expedition Report",
+    "page_count": 2,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_018",
+    "source_document": "ARTICLE+20.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+20.pdf",
+    "expedition_number": "2nd ISEA",
+    "expedition_title": "Second Indian Antarctic Expedition",
+    "operational_year": "1982-83",
+    "season": null,
+    "vessel": [
+      "MV Polar Circle"
+    ],
+    "ports": [
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 2,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_019",
+    "source_document": "ARTICLE+20_1.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+20_1.pdf",
+    "expedition_number": "3rd ISEA",
+    "expedition_title": "Third Indian Antarctic Expedition",
+    "operational_year": "1986",
+    "season": "Wintering",
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Expedition Report",
+    "page_count": 8,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_020",
+    "source_document": "ARTICLE+21.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+21.pdf",
+    "expedition_number": "9th ISEA",
+    "expedition_title": "9th Indian Antarctic Expedition",
+    "operational_year": "1994",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Expedition Report",
+    "page_count": 5,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_021",
+    "source_document": "ARTICLE+22_1.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+22_1.pdf",
+    "expedition_number": "9th ISEA",
+    "expedition_title": "Ninth Indian Antarctic Expedition",
+    "operational_year": "1994",
+    "season": "Wintering",
+    "vessel": [],
+    "ports": [
+      "Maitri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "Installation of additional radiators in Utility Bay, Green House, and Dark Room by\nextending the hot water pipe line."
+    ],
+    "environmental_summary": "An efficient system of waste disposal to work in sub-zero\ntemperature is r equired.",
+    "document_type": "Expedition Report",
+    "page_count": 8,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_022",
+    "source_document": "ARTICLE+23-2.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+23-2.pdf",
+    "expedition_number": "9th ISEA",
+    "expedition_title": "Ninth Indian Antarctic Expedition",
+    "operational_year": "1994",
+    "season": "Austral Summer",
+    "vessel": [],
+    "ports": [
+      "Maitri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "Principle of modular construction has been adopted for selection ot the size and structural\ncomponents, keeping in mind the futuristic scope ot expansion ot the station.",
+      "have been inserted in the panel joints\nand junctions to facilitate easy construction.",
+      "The GH under construction has been shown at Fig."
+    ],
+    "environmental_summary": null,
+    "document_type": "Expedition Report",
+    "page_count": 13,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_023",
+    "source_document": "ARTICLE+23.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+23.pdf",
+    "expedition_number": "1st ISEA",
+    "expedition_title": "First Indian Antarctic Expedition",
+    "operational_year": "1981",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Mauritius",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 4,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_024",
+    "source_document": "ARTICLE+23_1.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+23_1.pdf",
+    "expedition_number": "9th ISEA",
+    "expedition_title": "Ninth Indian Antarctic Expedition",
+    "operational_year": "1994",
+    "season": "Austral Summer",
+    "vessel": [],
+    "ports": [
+      "Maitri",
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "A joint convoy with members of new team was also undertaken in February 1991\nto acquaint them with terrain and route.",
+      "Every convoy consisted of 6 vehicles (Fig.l) and 7 \nto 8 persons.",
+      "Each convoy had a scientific component attached to it, increasing the value of effort.",
+      "An effective communication between convoy and Base — as also among the different\nvehicles was maintained."
+    ],
+    "environmental_summary": "The party faced three severe blizzards while at Nordvestoya and\none blizzard during the return journey. Further opening up of the torque converter was not possible due to , firstly, heavy blizzard\nstruck again at DG which lasted more than four days that could have led to ingress of\nblowing snow into the opened up components damaging them further.",
+    "document_type": "Expedition Report",
+    "page_count": 8,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_025",
+    "source_document": "ARTICLE+24.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+24.pdf",
+    "expedition_number": "1st ISEA",
+    "expedition_title": "First Indian Antarctic Expedition",
+    "operational_year": "1955-1958",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 11,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_026",
+    "source_document": "ARTICLE+25.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+25.pdf",
+    "expedition_number": "1st ISEA",
+    "expedition_title": "First Indian Antarctic Expedition",
+    "operational_year": "1839-43",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "However, no statistically significant\nrelationship between the abundance of fauna and the depth variations or the type of bottom deposits could\nbe established."
+    ],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 6,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_027",
+    "source_document": "ARTICLE+26.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+26.pdf",
+    "expedition_number": "1st ISEA",
+    "expedition_title": "First Indian Antarctic Expedition",
+    "operational_year": "1981",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Goa"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "These observa-\ntions are in accordance with those of Trask (1932) and many others (Bordovsky 1965, Bhosle et al 1978)\nwho established that nitrogen content is related to the particle size of the marine sediments, the proportion\nbeing higher in clay muds than in sands.",
+      "Trask (1932) through\nhis extensive investigations established C/N ratio varying between 5.3 to 13.6 with an average value of 8.4."
+    ],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 5,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_028",
+    "source_document": "ARTICLE+3.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+3.pdf",
+    "expedition_number": "2nd ISEA",
+    "expedition_title": "Second Indian Antarctic Expedition",
+    "operational_year": "1983",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "INTRODUCTION\nOn the 15th February 1983 a small team from the Second Indian Expedition Contingent landed at\nDakshin Gangotri and surveyed the condition of the Automatic Weather Recording Station left behind by\nthe first expedition.",
+      "In the short time available for the construction of the weather station, linear low temperature\nthermometers could not be purchased and readily available ones were used instead."
+    ],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 11,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_029",
+    "source_document": "ARTICLE+3_1.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+3_1.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "Mineralogically three zones have been established in order of increasing grades, viz., Zone A:\nAmphibolite with sphene but without diopside; Zone B: Amphibolite with both sphene and diopside;\nZone C: Amphibolite with diopside but no sphene.",
+      "CLASSIFICATION\nOn the basis of mineralogical assemblages, that is the presence of sphene and appearance of\ndiopside, three zones have been established.",
+      "The present authors have established three zones in the studied area on the basis of mineralogical\nassemblages.",
+      "Engel and Engel (1958) experimentally established a temperature about 525˚C where sphene\ndisappears and a temperature 540°C where diopside appears, at Edwards in Northwest Adirondack\nMountain."
+    ],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 7,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_030",
+    "source_document": "ARTICLE+4.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+4.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "The Expedition used a portable land sea satellite position fixing system and least\nsquare and 3 D techniques to determine the following positions:\nAutomatic Weather Station,\nDakshin Gangotri\nBase Camp (Hut)\nBase Camp\n— 70 o45' 12\"."
+    ],
+    "environmental_summary": "The weather accompanied by strong wind and\nsnowfall also hampers position fixing.",
+    "document_type": "Scientific Paper",
+    "page_count": 5,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_031",
+    "source_document": "ARTICLE+5.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+5.pdf",
+    "expedition_number": "1st ISEA",
+    "expedition_title": "First Indian Antarctic Expedition",
+    "operational_year": null,
+    "season": null,
+    "vessel": [
+      "MV Polar Circle"
+    ],
+    "ports": [
+      "Goa",
+      "Mauritius",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "Occasionally, the link was established on\n22 MHz band."
+    ],
+    "environmental_summary": "Although the total duration of the stay in the Antarctic continent was about 10 days, observations\ncould be made only for the first two days when the ship was alongside the ice shelf and stationary. No\nobservations could be made thereafter as the ice shelf collapsed and the ship had to cruise about in the\nnearby waters.",
+    "document_type": "Scientific Paper",
+    "page_count": 7,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_032",
+    "source_document": "ARTICLE+6.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+6.pdf",
+    "expedition_number": "1st ISEA",
+    "expedition_title": "First Indian Antarctic Expedition",
+    "operational_year": "1981",
+    "season": "Austral Summer",
+    "vessel": [
+      "MV Polar Circle"
+    ],
+    "ports": [
+      "Goa",
+      "Mormugao",
+      "Mauritius",
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "Close to the Antarctic continent, the existence of a polynya has been observed. Though it was austral\nsummer, a cold strong wind blowing off the Antarctic ice shelf favoured the formation of the polynya.",
+    "document_type": "Scientific Paper",
+    "page_count": 9,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_033",
+    "source_document": "ARTICLE+7.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+7.pdf",
+    "expedition_number": "9th ISEA",
+    "expedition_title": "Ninth Indian Antarctic Expedition",
+    "operational_year": "1994",
+    "season": "Austral Summer",
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Schirmacher Oasis",
+      "Queen Maud Land",
+      "Dronning Maud Land",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "The rate of uptake of C labelled glucose and glutamic acid by the natural microbial\nassemblages in the lake, glacial ice, sea ice and seawater was measured following the\nmethod of Gocke (1977). Whereas in the polynya this\nincorporation rate was moderate and it was most pronounced in the pelagic waters within\nthe Antarctic Convergence.",
+    "document_type": "Expedition Report",
+    "page_count": 16,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_034",
+    "source_document": "ARTICLE+8.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+8.pdf",
+    "expedition_number": "1st ISEA",
+    "expedition_title": "First Indian Antarctic Expedition",
+    "operational_year": "2000",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "Probable explanation for\nthis could be the replenishment of the consumed oxygen from deeper waters."
+    ],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 9,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_035",
+    "source_document": "ARTICLE+8_1.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+8_1.pdf",
+    "expedition_number": "10th ISEA",
+    "expedition_title": "Tenth Indian Antarctic Expedition",
+    "operational_year": "1995",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Dakshin Gangotri",
+      "Queen Maud Land",
+      "Dronning Maud Land",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Expedition Report",
+    "page_count": 8,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_036",
+    "source_document": "ARTICLE+8_4.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+8_4.pdf",
+    "expedition_number": "10th ISEA",
+    "expedition_title": "Tenth Indian Antarctic Expedition",
+    "operational_year": "1995",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Maitri",
+      "Schirmacher Oasis",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "SARMA \nNational Geophysical Research Institute, Hyderabad \nAbstract \nDescription of eighteen gravity bases established by NGRI during 1990-91 around Indian station \nin Antarctica together with their observed gravity value, elevation, position location, Bouguer \nanomaly value and free air anomaly form the subject matter of this work.",
+      "During the present survey, a perma-\nnent station with bench mark was established at Maitri, near the lake.",
+      "This base station was established by Survey of India.",
+      "A permanent station opposite Maitri adjacent to Indira \nPriyadarshini lake, which serves as a base station in and around Maitri, was \nestablished by constructing a sound platform."
+    ],
+    "environmental_summary": "Recording of Gravity Values \nDepending on the weather conditions and the availability of helicopter transport, \nthe time taken to occupy one station was 1/2 h to 1 h, each.",
+    "document_type": "Expedition Report",
+    "page_count": 4,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_037",
+    "source_document": "ARTICLE+9-2.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+9-2.pdf",
+    "expedition_number": "3rd ISEA",
+    "expedition_title": "Third Indian Antarctic Expedition",
+    "operational_year": "1986",
+    "season": "Austral Summer",
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Dakshin Gangotri",
+      "Schirmacher Oasis",
+      "Queen Maud Land",
+      "Dronning Maud Land",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "INTRODUCTION\nThe existence of an extensive microflora in Antarctic soils is well established (Boyd et al 1966\nBenoit et al 1970 Evans, 1982 and Matondkar et al 1983) Cameron (1972) attempted a micro\nbiological study of Antarctic ice sheet with reference to survival of viable microbes in dry valleys and\nmountains of the interior."
+    ],
+    "environmental_summary": "Climatological parameters like wind cloud\ncover and snowfall contributed equally. Biological studies on the ice shelf and in a fresh water lake at Princess Astrid Coast\nDronning Maud land Antarctica.",
+    "document_type": "Expedition Report",
+    "page_count": 15,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_038",
+    "source_document": "ARTICLE+9.pdf",
+    "source_path": "polar-data/04_expeditions/ARTICLE+9.pdf",
+    "expedition_number": "1st ISEA",
+    "expedition_title": "First Indian Antarctic Expedition",
+    "operational_year": "1980",
+    "season": null,
+    "vessel": [
+      "MV Polar Circle"
+    ],
+    "ports": [
+      "Goa",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "Sen Gupta 1\nABSTRACT\nDetermination of Cu, Cd, Fe, Mn, Zn, Pb, Co and Ni has been carried out at different depths at 8 stations- one station being in\nan Antarctic polynya and 7 in the Southern Ocean. The depthwise and surface-wise variations have been discussed in different parts\nof the sampling region - Antarctic polynya, Antarctic divergence, Antarctic convergence and subtropical convergence regions.",
+    "document_type": "Scientific Paper",
+    "page_count": 5,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_039",
+    "source_document": "article13.pdf",
+    "source_path": "polar-data/04_expeditions/article13.pdf",
+    "expedition_number": "5th ISEA",
+    "expedition_title": "Fifth Indian Antarctic Expedition",
+    "operational_year": "1988",
+    "season": "Austral Summer",
+    "vessel": [],
+    "ports": [
+      "Cape Town",
+      "Dakshin Gangotri",
+      "Queen Maud Land",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "The section between the coast and the polar plateau has\nbeen divided into four disinct morphological units: (1) the ice shelf, (ii) the\npiedmont zone of polar ice sheet, (iii) the mountain barrier, dissected by outlet\nglaciers and (iv) the polar plateau.",
+    "document_type": "Expedition Report",
+    "page_count": 8,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_040",
+    "source_document": "article16.pdf",
+    "source_path": "polar-data/04_expeditions/article16.pdf",
+    "expedition_number": "5th ISEA",
+    "expedition_title": "Fifth Indian Antarctic Expedition",
+    "operational_year": "1988",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Queen Maud Land",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Expedition Report",
+    "page_count": 11,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_041",
+    "source_document": "article17.pdf",
+    "source_path": "polar-data/04_expeditions/article17.pdf",
+    "expedition_number": "5th ISEA",
+    "expedition_title": "Fifth Indian Antarctic Expedition",
+    "operational_year": "1988",
+    "season": "Austral Summer",
+    "vessel": [],
+    "ports": [
+      "Dakshin Gangotri",
+      "Schirmacher Oasis",
+      "Queen Maud Land",
+      "Dronning Maud Land",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "'87 by electronic\ndistance measuring device (EDM) from a firmly established station on solid rock.",
+      "The grounding line position and its profile are important parameters in\nassessing the mass flux of ice in this area and the retreat or advance of this line\nand the calving line may help in understanding the wastage or replenishment of\nthe shelf ice."
+    ],
+    "environmental_summary": "This is defined to a good extent by the presem\nice shelf boundary. The difference\nbetween the radalt and pressure height (which would be the height of ice shelf\nabove water in feet) was recorded along with the position every 10 seconds.",
+    "document_type": "Expedition Report",
+    "page_count": 10,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_042",
+    "source_document": "article18.pdf",
+    "source_path": "polar-data/04_expeditions/article18.pdf",
+    "expedition_number": "5th ISEA",
+    "expedition_title": "Fifth Indian Antarctic Expedition",
+    "operational_year": "1988",
+    "season": "Wintering",
+    "vessel": [],
+    "ports": [
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "BHASKARA RAO\nIndia Meteorological Department,\nNew Delhi-110003\nAbstract\nA permanently manned meteorological observatory was established at the Indian\nResearch Station, Dakshin Gangotri, during the Third Indian Scientific expedition to\nAntarctica, for continuous recording of meteorological parameters.",
+      "The permanent Station at Dakshin\nGangotri was established by India in January, 1984 during the Third Expedition.",
+      "For the latter purpose an Automatic\nWeather Station was established on experimental basis during the Fifth Expedition."
+    ],
+    "environmental_summary": "The records of these three years indicate that\nextreme lowest temperature recorded was in the month of August in the year\n1984 and 1985. Month of July, however, recorded lowest temperature in 1986.",
+    "document_type": "Expedition Report",
+    "page_count": 24,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_043",
+    "source_document": "article19.pdf",
+    "source_path": "polar-data/04_expeditions/article19.pdf",
+    "expedition_number": "5th ISEA",
+    "expedition_title": "Fifth Indian Antarctic Expedition",
+    "operational_year": "1988",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "2S3-287 \nBlizzard Storms: Coastal Regions of Indian Antarctic\nStation, Dakshin Gangotri (1985-86 Summer)\nA.C. In this paper, a \nsystematic synoptic study of weather condition, highlighting the blizzard storm situations\nat Dakshin Gangotri has been presented.",
+    "document_type": "Expedition Report",
+    "page_count": 5,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_044",
+    "source_document": "article20.pdf",
+    "source_path": "polar-data/04_expeditions/article20.pdf",
+    "expedition_number": "5th ISEA",
+    "expedition_title": "Fifth Indian Antarctic Expedition",
+    "operational_year": "1988",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "289-297 \nAutomatic Weather Station at Dakshin Gangotri,\nAntarctica\nN.Y.",
+      "In order to collect continuous weather data, automatic weather stations are established\nby various countries with the help of satellites.",
+      "The India Meteorological Department has\nset up an automatic weather station popularly know as Data Collection Platform (DCP)\nat Dakshin Gangotri, Antarctica, during the Fifth Indian Scientific Expedition.",
+      "In this paper a detailed description of the data collection platform system, the sensors\nused in the system and the difficulties experienced during installation of thi s system are\nhighlighted."
+    ],
+    "environmental_summary": "Even in adverse weather conditions with very low temperature and severe\nblizzards, the DCP system at Dakshin Gangotri performed satisfactorily.",
+    "document_type": "Expedition Report",
+    "page_count": 9,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_045",
+    "source_document": "article23.pdf",
+    "source_path": "polar-data/04_expeditions/article23.pdf",
+    "expedition_number": "5th ISEA",
+    "expedition_title": "Fifth Indian Antarctic Expedition",
+    "operational_year": "1988",
+    "season": "Austral Summer",
+    "vessel": [
+      "MV Thuleland"
+    ],
+    "ports": [
+      "Goa",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Expedition Report",
+    "page_count": 11,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_046",
+    "source_document": "article24.pdf",
+    "source_path": "polar-data/04_expeditions/article24.pdf",
+    "expedition_number": "5th ISEA",
+    "expedition_title": "Fifth Indian Antarctic Expedition",
+    "operational_year": "1988",
+    "season": "Austral Summer",
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "Bhosle \nIn this paper, preliminary data on the short-term variation in living carbon, \nphytoplankton biomass, POM and its consti tuent fractions such as carbohydrates, \nproteins and lipids during austral summer (Jan to Feb 19.86) at a single station \nnear the ice shelf have been presented. Materials and Methods \nSeawater samples were collected twice a week using 5 1 Niskin sampler \nwhen the ship was alongside of the ice shelf (70°S, 11°E) during January-February, \n1986.",
+    "document_type": "Expedition Report",
+    "page_count": 10,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_047",
+    "source_document": "article26.pdf",
+    "source_path": "polar-data/04_expeditions/article26.pdf",
+    "expedition_number": "5th ISEA",
+    "expedition_title": "Fifth Indian Antarctic Expedition",
+    "operational_year": "1988",
+    "season": "Wintering",
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "The box marked 'Summer' was taken out after 45 days only owing\nto return of the summer team, while the box marked 'Winter' was left behind\nfor continued exposure through the long winter."
+    ],
+    "environmental_summary": "The lowest temperature recorded\nis -88°C whereas the normal range is +5°C to -50°C. During 45 days of summer exposure there\nwere only 7 blizzards lasting from about 5 hours to more than 24 hours with\nlowest temperature touching down to — 14°C and a wind speed of about 40\nknots.",
+    "document_type": "Expedition Report",
+    "page_count": 9,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_048",
+    "source_document": "article30.pdf",
+    "source_path": "polar-data/04_expeditions/article30.pdf",
+    "expedition_number": "5th ISEA",
+    "expedition_title": "Fifth Indian Antarctic Expedition",
+    "operational_year": "1988",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Dakshin Gangotri",
+      "Queen Maud Land",
+      "Dronning Maud Land",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "Spectral signatures of sea-ice, fast-ice,\nshelf-ice, continental-ice and lithological units were collected. Narendra Nath \nsignatures of sea-ice, fast-ice, shelf-ice, continental-ice and lithological units have\nbeen collected.",
+    "document_type": "Expedition Report",
+    "page_count": 32,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_049",
+    "source_document": "article32.pdf",
+    "source_path": "polar-data/04_expeditions/article32.pdf",
+    "expedition_number": "5th ISEA",
+    "expedition_title": "Fifth Indian Antarctic Expedition",
+    "operational_year": "1988",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Expedition Report",
+    "page_count": 9,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_050",
+    "source_document": "article33.pdf",
+    "source_path": "polar-data/04_expeditions/article33.pdf",
+    "expedition_number": "5th ISEA",
+    "expedition_title": "Fifth Indian Antarctic Expedition",
+    "operational_year": "1988",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "Acknowledgements\nThe author is thankful to the Indian team which assisted in installation of\nthe SPV system under severe blizzard conditions."
+    ],
+    "environmental_summary": "While on a clear sunny day, major contribution to global radiation is from the\ndirect component, on a cloudy or blizzard day, it is the diffused component\nwhich is the major contributor. Acknowledgements\nThe author is thankful to the Indian team which assisted in installation of\nthe SPV system under severe blizzard conditions.",
+    "document_type": "Expedition Report",
+    "page_count": 10,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_051",
+    "source_document": "ATBD_SCAT_v1_fuldoc2.pdf",
+    "source_path": "polar-data/04_expeditions/ATBD_SCAT_v1_fuldoc2.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": "2007",
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [
+      "As, so far, the \nobserved dependency of radar backscatter on wind conditions has not been well-\nexplained theoretically, the empirical relationships are established using simultaneous \nmeasurements of radar backscatter and ocean surface wind vector obtained through model \nanalysis as well as insitu measurements.",
+      "8 \nY = A1 Cos(j) + A2 Cos(2j)+ A3 Cos(3j) where Y = (s0/A0)– 1 3 \n \n At desired incidence angle, polarization and wind speed, by determining Y at each \nj value, the harmonic coefficients Ai are established through statistical analysis.",
+      "The comparison of harmonic coefficients (proxy GMF) established using these two \nGMFs has been performed (Tiwari and Gohil, 2005) as shown in figure (6)."
+    ],
+    "environmental_summary": "The document contains details of algorithms for \nextraction of wind vector solutions, wind directional \nambiguity removal and flagging of rain and sea-ice. The sea-ice flagging approach is adopted from the literature which is \nused for sea-ice detection from Quikscat data.",
+    "document_type": "Technical Document",
+    "page_count": 42,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_052",
+    "source_document": "Eleventh_Expedition.pdf",
+    "source_path": "polar-data/04_expeditions/Eleventh_Expedition.pdf",
+    "expedition_number": "5th ISEA",
+    "expedition_title": "Fifth Indian Antarctic Expedition",
+    "operational_year": "1988",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "The outline of this glacier was monitored\nfrom a nearby, well established, survey station marked 'G' on the solid bed\nrock, initially in Jan., 1983."
+    ],
+    "environmental_summary": null,
+    "document_type": "Expedition Report",
+    "page_count": 5,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_053",
+    "source_document": "Images_of_Moon_From_Chandrayan-1.pdf",
+    "source_path": "polar-data/04_expeditions/Images_of_Moon_From_Chandrayan-1.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": "2011",
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 142,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_054",
+    "source_document": "Indian_Arctic_Expedition-2024-25_Report_compressed.pdf",
+    "source_path": "polar-data/04_expeditions/Indian_Arctic_Expedition-2024-25_Report_compressed.pdf",
+    "expedition_number": "15th IAE",
+    "expedition_title": "15th Indian Arctic Expedition",
+    "operational_year": "2024",
+    "season": "Summer",
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Himadri",
+      "Ny-Ålesund",
+      "Svalbard"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "Indian Arctic Research Station - Himadri\nIndia’s Arctic research station, Himadri, established in 2008 at Ny-Ålesund, Svalbard,\nserves as a hub for studying climate change impacts and adaptations in the Arctic."
+    ],
+    "environmental_summary": "26\n4.1.4 Seasonal variability of plankton diversity and biogeochemical cycle in the\nArctic Kongsfjorden and Krossfjorden-Svalbard, driven by glacial/sea-ice\ninputs . 39\n6.1.4 Analyzing ocean-atmosphere-sea ice-snow dynamics and growth patterns\nin the Ny-Ålesund, Svalbard region using advanced neural network models\n40\n6.1.5 Biodiversity assessment and documentation of the Polar habitat employing\nFire Hawk honey badger optimization enabled deep learning .",
+    "document_type": "Expedition Report",
+    "page_count": 75,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_055",
+    "source_document": "INSAT_3D_ATBD_MAY_2015.pdf",
+    "source_path": "polar-data/04_expeditions/INSAT_3D_ATBD_MAY_2015.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": "2015",
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Technical Document",
+    "page_count": 379,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_056",
+    "source_document": "Pages+from+120--144.pdf",
+    "source_path": "polar-data/04_expeditions/Pages+from+120--144.pdf",
+    "expedition_number": "11th ISEA",
+    "expedition_title": "Eleventh Indian Antarctic Expedition",
+    "operational_year": "1995",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Expedition Report",
+    "page_count": 24,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_057",
+    "source_document": "Pages+from+152-162.pdf",
+    "source_path": "polar-data/04_expeditions/Pages+from+152-162.pdf",
+    "expedition_number": "11th ISEA",
+    "expedition_title": "Eleventh Indian Antarctic Expedition",
+    "operational_year": "1995",
+    "season": "Austral Summer",
+    "vessel": [
+      "MV Thuleland"
+    ],
+    "ports": [
+      "Maitri",
+      "Dakshin Gangotri",
+      "Dronning Maud Land",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "Also , followin g th e \nguideline s of Norwegia n Polar Institute , a regular observatio n i s carrie d ou t on \nthe iceberg s that are encountere d during the voyag e by shi p betwee n Indi a and \nAntarctica. Snow accumulation/ablation over the ice shelf \nA se t o f nin e stake s (Fi g 1 ) fixe d i n shel f ic e nea r India' s firs t researc h \nstation 'Dakshi n Gangotri ' i s bein g monitore d ever y yea r t o recor d th e accu -\nmulation and ablatio n of snow in that area.",
+    "document_type": "Expedition Report",
+    "page_count": 10,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_058",
+    "source_document": "Pages+from+229-241.pdf",
+    "source_path": "polar-data/04_expeditions/Pages+from+229-241.pdf",
+    "expedition_number": "11th ISEA",
+    "expedition_title": "Eleventh Indian Antarctic Expedition",
+    "operational_year": "1995",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Maitri",
+      "Dakshin Gangotri",
+      "Schirmacher Oasis",
+      "Dronning Maud Land",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Expedition Report",
+    "page_count": 13,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_059",
+    "source_document": "Pages+from+243-246.pdf",
+    "source_path": "polar-data/04_expeditions/Pages+from+243-246.pdf",
+    "expedition_number": "11th ISEA",
+    "expedition_title": "Eleventh Indian Antarctic Expedition",
+    "operational_year": "1995",
+    "season": "Winter",
+    "vessel": [],
+    "ports": [
+      "Maitri",
+      "Schirmacher Oasis",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Expedition Report",
+    "page_count": 4,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_060",
+    "source_document": "Pages+from+79-86.pdf",
+    "source_path": "polar-data/04_expeditions/Pages+from+79-86.pdf",
+    "expedition_number": "11th ISEA",
+    "expedition_title": "Eleventh Indian Antarctic Expedition",
+    "operational_year": "1995",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Maitri",
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "By now, an automatic weather station and a 9m \noperational instrumented tower have been established to record data apart from \nthe surface based meteorological observations, radiation data and radiosonde \nflights.An acoustic sounder has also been fitted.",
+      "The only sources of natural noise are \nthe winds and snowfall, and the man made periodic noise is die to the electricity \ngenerators and continuous noise for a short period (5 to 10 minutes only) is \nduring the helicopter operations."
+    ],
+    "environmental_summary": "From the acoustic sounding point of view, the \nwind speed .beyond 30 knots and snowfall, generally termed as bad weather, \nare the noise producing sources in which acoustic sounding recording is \nseverely affected. The only sources of natural noise are \nthe winds and snowfall, and the man made periodic noise is die to the electricity \ngenerators and continuous noise for a short period (5 to 10 minutes only) is \nduring the helicopter operations.",
+    "document_type": "Expedition Report",
+    "page_count": 8,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_061",
+    "source_document": "Pages+from+IITH+INDIAN+EXPEDITION++267-300.pdf",
+    "source_path": "polar-data/04_expeditions/Pages+from+IITH+INDIAN+EXPEDITION++267-300.pdf",
+    "expedition_number": "11th ISEA",
+    "expedition_title": "Eleventh Indian Antarctic Expedition",
+    "operational_year": "1995",
+    "season": "Austral Summer",
+    "vessel": [],
+    "ports": [
+      "Maitri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "Extreme cold, high winds and aridity inhibit growth \neve n durin g 'summer ' i n mos t areas.",
+    "document_type": "Expedition Report",
+    "page_count": 34,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_062",
+    "source_document": "Pages+from+IITH+INDIAN+EXPEDITION+53-78.pdf",
+    "source_path": "polar-data/04_expeditions/Pages+from+IITH+INDIAN+EXPEDITION+53-78.pdf",
+    "expedition_number": "11th ISEA",
+    "expedition_title": "Eleventh Indian Antarctic Expedition",
+    "operational_year": "1995",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Maitri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "Also, tracking of balloon was very \ndifficult due to extreme cold. In this report, for defining blizzard, three criteria are used.",
+    "document_type": "Expedition Report",
+    "page_count": 26,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_063",
+    "source_document": "Pages+from+IITH+INDIAN+EXPEDITION+87-101.pdf",
+    "source_path": "polar-data/04_expeditions/Pages+from+IITH+INDIAN+EXPEDITION+87-101.pdf",
+    "expedition_number": "11th ISEA",
+    "expedition_title": "Eleventh Indian Antarctic Expedition",
+    "operational_year": "1995",
+    "season": "Austral Summer",
+    "vessel": [],
+    "ports": [
+      "Maitri",
+      "Dakshin Gangotri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "Although scheduled to operate for a fortnight, these three \nstations could run together only for four days from 6 to 9 January 1992 due to \nhighly inclement weather conditions at shelf and the mountains. The period covered is 6 to 9 January, 1992 whic h \nincluded a geomagnetic storm.",
+    "document_type": "Expedition Report",
+    "page_count": 15,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_064",
+    "source_document": "pdf.pdf",
+    "source_path": "polar-data/04_expeditions/pdf.pdf",
+    "expedition_number": "11th ISEA",
+    "expedition_title": "Eleventh Indian Antarctic Expedition",
+    "operational_year": "1995",
+    "season": "Austral Summer",
+    "vessel": [],
+    "ports": [
+      "Maitri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "The PTT when recorded after three weeks of departure from Antarctica, \nshowed that the value for summer members had returned to average value of \n149.33 sec whereas for the winter team members it still maintained the high \nPTT average value of 336 sec (Fig 3)."
+    ],
+    "environmental_summary": null,
+    "document_type": "Expedition Report",
+    "page_count": 7,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_065",
+    "source_document": "pg+111-122.pdf",
+    "source_path": "polar-data/04_expeditions/pg+111-122.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 12,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "no_text_layer"
+  },
+  {
+    "document_id": "exp_066",
+    "source_document": "pg+119-124.pdf",
+    "source_path": "polar-data/04_expeditions/pg+119-124.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 5,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "no_text_layer"
+  },
+  {
+    "document_id": "exp_067",
+    "source_document": "pg+123-142.pdf",
+    "source_path": "polar-data/04_expeditions/pg+123-142.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 20,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "no_text_layer"
+  },
+  {
+    "document_id": "exp_068",
+    "source_document": "pg+143-157.pdf",
+    "source_path": "polar-data/04_expeditions/pg+143-157.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 15,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "no_text_layer"
+  },
+  {
+    "document_id": "exp_069",
+    "source_document": "pg+159-183.pdf",
+    "source_path": "polar-data/04_expeditions/pg+159-183.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 25,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "no_text_layer"
+  },
+  {
+    "document_id": "exp_070",
+    "source_document": "pg+195-206.pdf",
+    "source_path": "polar-data/04_expeditions/pg+195-206.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 12,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "no_text_layer"
+  },
+  {
+    "document_id": "exp_071",
+    "source_document": "pg+23-40.pdf",
+    "source_path": "polar-data/04_expeditions/pg+23-40.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 18,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "no_text_layer"
+  },
+  {
+    "document_id": "exp_072",
+    "source_document": "pg+233-257.pdf",
+    "source_path": "polar-data/04_expeditions/pg+233-257.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 25,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "no_text_layer"
+  },
+  {
+    "document_id": "exp_073",
+    "source_document": "pg+259-266.pdf",
+    "source_path": "polar-data/04_expeditions/pg+259-266.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 8,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "no_text_layer"
+  },
+  {
+    "document_id": "exp_074",
+    "source_document": "pg+267-289.pdf",
+    "source_path": "polar-data/04_expeditions/pg+267-289.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 23,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "no_text_layer"
+  },
+  {
+    "document_id": "exp_075",
+    "source_document": "pg+291-299.pdf",
+    "source_path": "polar-data/04_expeditions/pg+291-299.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 8,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "no_text_layer"
+  },
+  {
+    "document_id": "exp_076",
+    "source_document": "pg+41-46.pdf",
+    "source_path": "polar-data/04_expeditions/pg+41-46.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 6,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "no_text_layer"
+  },
+  {
+    "document_id": "exp_077",
+    "source_document": "pg+47-57.pdf",
+    "source_path": "polar-data/04_expeditions/pg+47-57.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 11,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "no_text_layer"
+  },
+  {
+    "document_id": "exp_078",
+    "source_document": "pg+59-75.pdf",
+    "source_path": "polar-data/04_expeditions/pg+59-75.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 17,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "no_text_layer"
+  },
+  {
+    "document_id": "exp_079",
+    "source_document": "pg225-233.pdf",
+    "source_path": "polar-data/04_expeditions/pg225-233.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 9,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "no_text_layer"
+  },
+  {
+    "document_id": "exp_080",
+    "source_document": "PINSA_2020_Art31.pdf",
+    "source_path": "polar-data/04_expeditions/PINSA_2020_Art31.pdf",
+    "expedition_number": "5th ISEA",
+    "expedition_title": "Fifth Indian Antarctic Expedition",
+    "operational_year": "2016-2019",
+    "season": "Austral Summer",
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Maitri",
+      "Dakshin Gangotri",
+      "Bharati",
+      "Himadri",
+      "Ny-Ålesund",
+      "Schirmacher Oasis",
+      "Larsemann Hills",
+      "Prydz Bay",
+      "Dronning Maud Land",
+      "Antarctica",
+      "Svalbard"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "Using isotopic compositions (δ13C and δ18O) of\nplanktonic foraminifera Prasanna et al ., 2016\nestablished a linkage between geographical position\nand depth range of planktonic species Globigerina\nbulloides."
+    ],
+    "environmental_summary": "The Indian Antarctic Expeditions started in the year\n1981 with building a permanent research base\n(Dakshin Gangotri) firstly on Ice shelf of the Lazarev\nsea and then second research base (Maitri) on stable\nrocky outcrops of the Schirmacher Oasis. Proxy records of sea ice [sea-salt sodium (ss-\nNa+) and methane sulfonic acid (MSA)] and moisture\n[deuterium excess (d-excess)] variability of IND-25/\nB5 ice core also revealed the history of moisture\ntransport and sea ice condition during the last century\n(Rahaman et al ., 2016).",
+    "document_type": "Expedition Report",
+    "page_count": 15,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_081",
+    "source_document": "Sixteenth_Expedition.pdf",
+    "source_path": "polar-data/04_expeditions/Sixteenth_Expedition.pdf",
+    "expedition_number": "17th ISEA",
+    "expedition_title": "Seventeenth Indian Antarctic Expedition",
+    "operational_year": "2000",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Maitri",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "T hese values of ozone as well as\nMED values pertain to the real weather conditions including all\nsorts of weather variabilities. the MED values in the month of December go quite\nhigh for cloud free weather conditions.",
+    "document_type": "Expedition Report",
+    "page_count": 14,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_082",
+    "source_document": "SOE 2006.pdf",
+    "source_path": "polar-data/04_expeditions/SOE 2006.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": null,
+    "season": null,
+    "vessel": [],
+    "ports": [],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": null,
+    "document_type": "Scientific Paper",
+    "page_count": 100,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "no_text_layer"
+  },
+  {
+    "document_id": "exp_083",
+    "source_document": "Starting+pages.pdf",
+    "source_path": "polar-data/04_expeditions/Starting+pages.pdf",
+    "expedition_number": "25th ISEA",
+    "expedition_title": "25th Indian Antarctic Expedition",
+    "operational_year": "2013",
+    "season": "Austral Summer",
+    "vessel": [],
+    "ports": [
+      "Goa",
+      "Maitri",
+      "Schirmacher Oasis",
+      "Dronning Maud Land",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "Prem Kishore\nEARTH SCIENCE, GLACIOLOGY AND GLOBAL CHANGE\nShallow Ice Core Drilling On Polar Continental Ice North of \nHumboldt Glacier, East Antarctica\nArun Chaturvedi, A.",
+      "THE TEAM\n25th Indian Scientific Expedition to Antarctica \nSummer Team:\nS.No.",
+      "Panwar \nBU DIPR\nTHE TEAM\nSummer Team Members of the 25th ISEA\nShri Mervin \nJ.",
+      "XXII The Team\nSummer Team Members of the 25th ISEA\nCdr."
+    ],
+    "environmental_summary": "Encountered the Pack Ice and Penguins. A Severe Blizzard within a span of just 18 hours \nhuge accumulation of Snow.",
+    "document_type": "Expedition Report",
+    "page_count": 26,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_084",
+    "source_document": "tc-2021-218-ATC4.pdf",
+    "source_path": "polar-data/04_expeditions/tc-2021-218-ATC4.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": "2018",
+    "season": "Austral Summer",
+    "vessel": [],
+    "ports": [
+      "Maitri",
+      "Schirmacher Oasis",
+      "Queen Maud Land",
+      "Dronning Maud Land",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [],
+    "environmental_summary": "1 Introduction\nLiquid water is increasingly more present over margins of glaciers and ice sheets, and over the surface of the Arctic Sea ice\nand Antarctic ice shelf due to rise of near-surface air temperatures enhancing snow and ice melt. The oasis separates the continental ice sheet from the ice shelf, and the\nregion allows studies on deglaciation processes and continental ice sheet mass balance components including melting and\nliquid water runoff (Klokov, 1979; Srivastava et al., 2012).",
+    "document_type": "Scientific Paper",
+    "page_count": 49,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_085",
+    "source_document": "tc-2021-364.pdf",
+    "source_path": "polar-data/04_expeditions/tc-2021-364.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": "2020",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Ny-Ålesund",
+      "Svalbard"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "135 \nFinally, all lakes were classified based on their dam construction."
+    ],
+    "environmental_summary": "They do not cover the entire area of Svalbard and do not always make it \npossible to determine the state of the proglacial zones due to the distance from the pl ane, the angle of the photo taken, as well 70 \nas the weather conditions and the presence of terrain forms that obscure the view of a specific area. Due to \ngood weather conditions (little cloud cover), we chose photos taken in August 2020 to gain information about the state of the \nSvalbard landscape during the warmest month.",
+    "document_type": "Scientific Paper",
+    "page_count": 29,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_086",
+    "source_document": "tc-7-375-2013.pdf",
+    "source_path": "polar-data/04_expeditions/tc-7-375-2013.pdf",
+    "expedition_number": null,
+    "expedition_title": null,
+    "operational_year": "2013",
+    "season": null,
+    "vessel": [],
+    "ports": [
+      "Dronning Maud Land",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "Fretwell et al.: Improved ice bed, surface and thickness datasets for Antarctica\n36 \n \nFigure 2, Coverage of datasets used in the construction of the ice thickness grids 902 \n 903 \nFig.",
+      "Coverage of datasets used in the construction of the ice thick-\nness grids.",
+      "Coverage of datasets used in construction of the surface grid.",
+      "40 \n \n 914 \nFigure 6, Coverage of bathymetry and rock outcrop datasets used in the construction of the bed elevation grid."
+    ],
+    "environmental_summary": "This process renders ice shelf thickness consistent with the\nradar-measured thickness on the adjacent grounded ice. For\nNivlisen Ice Shelf, an extensive radar dataset disagreed with\nthe altimetry in mean ice thickness and thickness distribution\nso, for that ice shelf, we gridded ice shelf thickness directly\nfrom the radar data.",
+    "document_type": "Scientific Paper",
+    "page_count": 19,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  },
+  {
+    "document_id": "exp_087",
+    "source_document": "Technical+Publication+No.+18,+pp+91-105.pdf",
+    "source_path": "polar-data/04_expeditions/Technical+Publication+No.+18,+pp+91-105.pdf",
+    "expedition_number": "20th ISEA",
+    "expedition_title": "20th Indian Antarctic Expedition",
+    "operational_year": "2006",
+    "season": "Wintering",
+    "vessel": [],
+    "ports": [
+      "Cape Town",
+      "Maitri",
+      "Dronning Maud Land",
+      "Antarctica"
+    ],
+    "route": null,
+    "operational_highlights": [
+      "During onward cruise on board ship Magdalena Oldendorf, surface \nobservation were taken eight times a day at three hour interval at \nsynoptic hours from the next day of departure from Cape town \nand in similar way during return journey.",
+      "Making short term weather forecasts for helicopter operations and \nfor groups engaged in carrying out field studies is a challenging \ntask in Antarctica.",
+      "The IMD team in spite of the limitations managed a \ngood weather forecast which helped in planning field tasks and \nhelicopter operations during the expeditions."
+    ],
+    "environmental_summary": "The lowest temperature Minus \n31.8°C was recorded on 28 July'01 and highest maximum temperature Plus \n7.4°C was recorded on 24 December '01. A summary of blizzard is shown in Table 5.",
+    "document_type": "Expedition Report",
+    "page_count": 15,
+    "source": "NCPOR / Official Source",
+    "extraction_status": "success"
+  }
+]
