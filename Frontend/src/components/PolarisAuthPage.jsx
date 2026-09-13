@@ -24,15 +24,21 @@ export default function PolarisAuthPage({ onSuccess, onNavigateHome, initialProm
     setLoading(true);
 
     try {
+      const apiBase = (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_API_BASE_URL) || (typeof window !== 'undefined' && window.VITE_API_BASE_URL) || '';
       if (mode === "login") {
-        const res = await fetch("/api/auth/login", {
+        const res = await fetch(`${apiBase}/api/auth/login`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ email: email.trim(), password })
         });
-        const data = await res.json();
-        if (!res.ok || !data.success) {
-          throw new Error(data.message || "Invalid credentials. Please verify your email and password.");
+        let data = null;
+        try {
+          data = await res.json();
+        } catch (jsonErr) {
+          throw new Error("Backend server is offline or unreachable. Please ensure Backend API server (Port 5000) is running.");
+        }
+        if (!res.ok || !data || !data.success) {
+          throw new Error((data && data.message) || "Invalid credentials. Please verify your email and password.");
         }
         if (typeof onSuccess === "function") {
           onSuccess(data.data.user, data.data.token);
@@ -42,7 +48,7 @@ export default function PolarisAuthPage({ onSuccess, onNavigateHome, initialProm
         if (role === "researcher" && !institution.trim()) {
           throw new Error("Institution name is required for polar researcher credentials.");
         }
-        const res = await fetch("/api/auth/register", {
+        const res = await fetch(`${apiBase}/api/auth/register`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -54,9 +60,14 @@ export default function PolarisAuthPage({ onSuccess, onNavigateHome, initialProm
             designation: designation.trim()
           })
         });
-        const data = await res.json();
-        if (!res.ok || !data.success) {
-          throw new Error(data.message || "Registration could not be completed.");
+        let data = null;
+        try {
+          data = await res.json();
+        } catch (jsonErr) {
+          throw new Error("Backend server is offline or unreachable. Please ensure Backend API server (Port 5000) is running.");
+        }
+        if (!res.ok || !data || !data.success) {
+          throw new Error((data && data.message) || "Registration could not be completed.");
         }
         if (typeof onSuccess === "function") {
           onSuccess(data.data.user, data.data.token);

@@ -25,7 +25,7 @@ export const POLAR_ANCHORS = {
 };
 
 // Configured model request: gemini-2.5-flash with fast active model fallback cached in memory
-let activeGenerationModel = process.env.GEMINI_MODEL || 'gemini-2.0-flash';
+let activeGenerationModel = process.env.GEMINI_MODEL || 'gemini-3.6-flash';
 
 /**
  * Warm up and verify model selection at server boot time.
@@ -33,16 +33,20 @@ let activeGenerationModel = process.env.GEMINI_MODEL || 'gemini-2.0-flash';
 export async function warmupModel() {
   if (!isApiKeyConfigured()) return;
   const client = getGeminiClient() || geminiClient;
-  try {
-    await client.models.generateContent({
-      model: activeGenerationModel,
-      contents: 'ping',
-      config: { maxOutputTokens: 5, temperature: 0.2 }
-    });
-  } catch (err) {
-    const isNotFound = err?.status === 404 || err?.message?.includes('404') || err?.message?.includes('not found') || err?.message?.includes('no longer available');
-    if (isNotFound) {
-      activeGenerationModel = 'gemini-1.5-flash';
+  const candidates = [process.env.GEMINI_MODEL, 'gemini-3.6-flash', 'gemini-2.5-flash', 'gemini-1.5-flash', 'gemini-2.0-flash'].filter(Boolean);
+
+  for (const m of candidates) {
+    try {
+      await client.models.generateContent({
+        model: m,
+        contents: 'ping',
+        config: { maxOutputTokens: 5, temperature: 0.2 }
+      });
+      activeGenerationModel = m;
+      console.log(`⚡ [LLM] Active model verified: ${m}`);
+      return;
+    } catch (err) {
+      // Continue trying next candidate
     }
   }
 }

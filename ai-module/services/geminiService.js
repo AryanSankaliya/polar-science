@@ -304,41 +304,28 @@ export async function generateGroundedAnswer(question, mode = 'student', retriev
     temperature: 0.2
   };
 
-  try {
-    const response = await client.models.generateContent({
-      model: activeGenerationModel,
-      contents: promptContents,
-      config: generationConfig
-    });
+  const candidateModels = [process.env.GEMINI_MODEL, 'gemini-3.6-flash', 'gemini-2.5-flash', 'gemini-1.5-flash', 'gemini-2.0-flash'].filter(Boolean);
 
-    const answer = response?.text;
-    if (answer && answer.trim()) {
-      return sanitizeBulletOutput(answer);
-    }
-    return generateRulesEngineFallback(question, mode, retrievedEvidence);
-  } catch (modelErr) {
-    const isNotFound = modelErr?.status === 404 || modelErr?.message?.includes('404') || modelErr?.message?.includes('not found') || modelErr?.message?.includes('no longer available');
-    
-    if (isNotFound || activeGenerationModel === 'gemini-2.0-flash') {
-      // Graceful fallback to verified available model
-      activeGenerationModel = 'gemini-1.5-flash';
-      try {
-        const fallbackResponse = await client.models.generateContent({
-          model: activeGenerationModel,
-          contents: promptContents,
-          config: generationConfig
-        });
-        if (fallbackResponse?.text && fallbackResponse.text.trim()) {
-          return sanitizeBulletOutput(fallbackResponse.text);
-        }
-      } catch (innerErr) {
-        console.warn('[GeminiService] Model fallback failed:', innerErr.message);
+  for (const modelName of candidateModels) {
+    try {
+      const response = await client.models.generateContent({
+        model: modelName,
+        contents: promptContents,
+        config: generationConfig
+      });
+
+      const answer = response?.text;
+      if (answer && answer.trim()) {
+        activeGenerationModel = modelName;
+        return sanitizeBulletOutput(answer);
       }
+    } catch (modelErr) {
+      console.warn(`[GeminiService] Model '${modelName}' notice:`, modelErr.message || modelErr);
     }
-
-    console.warn('[GeminiService] Generation failed, engaging rules-engine fallback:', modelErr.message);
-    return generateRulesEngineFallback(question, mode, retrievedEvidence);
   }
+
+  console.warn('[GeminiService] All API model attempts completed. Engaging rules-engine fallback.');
+  return generateRulesEngineFallback(question, mode, retrievedEvidence);
 }
 
 export default {

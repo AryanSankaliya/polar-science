@@ -4134,15 +4134,21 @@ function PolarisAuthPageView({ onSuccess, onNavigateHome, initialPrompt, current
     setLoading(true);
 
     try {
+      const apiBase = (window.VITE_API_BASE_URL || '');
       if (mode === "login") {
-        const res = await fetch("/api/auth/login", {
+        const res = await fetch(apiBase + "/api/auth/login", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ email: email.trim(), password })
         });
-        const data = await res.json();
-        if (!res.ok || !data.success) {
-          throw new Error(data.message || "Invalid credentials. Please verify your email and password.");
+        let data = null;
+        try {
+          data = await res.json();
+        } catch (jsonErr) {
+          throw new Error("Backend server is offline or unreachable. Please ensure Backend API server (Port 5000) is running.");
+        }
+        if (!res.ok || !data || !data.success) {
+          throw new Error((data && data.message) || "Invalid credentials. Please verify your email and password.");
         }
         if (typeof onSuccess === "function") {
           onSuccess(data.data.user, data.data.token);
@@ -4152,7 +4158,7 @@ function PolarisAuthPageView({ onSuccess, onNavigateHome, initialPrompt, current
         if (role === "researcher" && !institution.trim()) {
           throw new Error("Institution name is required for polar researcher credentials.");
         }
-        const res = await fetch("/api/auth/register", {
+        const res = await fetch(apiBase + "/api/auth/register", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -4164,9 +4170,14 @@ function PolarisAuthPageView({ onSuccess, onNavigateHome, initialPrompt, current
             designation: designation.trim()
           })
         });
-        const data = await res.json();
-        if (!res.ok || !data.success) {
-          throw new Error(data.message || "Registration could not be completed.");
+        let data = null;
+        try {
+          data = await res.json();
+        } catch (jsonErr) {
+          throw new Error("Backend server is offline or unreachable. Please ensure Backend API server (Port 5000) is running.");
+        }
+        if (!res.ok || !data || !data.success) {
+          throw new Error((data && data.message) || "Registration could not be completed.");
         }
         if (typeof onSuccess === "function") {
           onSuccess(data.data.user, data.data.token);
@@ -4647,15 +4658,21 @@ function PolarisAuthGateModal({ isOpen, onClose, onSuccess, initialPrompt }) {
     setLoading(true);
 
     try {
+      const apiBase = (window.VITE_API_BASE_URL || '');
       if (mode === "login") {
-        const res = await fetch("/api/auth/login", {
+        const res = await fetch(apiBase + "/api/auth/login", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ email: email.trim(), password })
         });
-        const data = await res.json();
-        if (!res.ok || !data.success) {
-          throw new Error(data.message || "Invalid credentials. Please verify your email and password.");
+        let data = null;
+        try {
+          data = await res.json();
+        } catch (jsonErr) {
+          throw new Error("Backend server is offline or unreachable. Please ensure Backend API server (Port 5000) is running.");
+        }
+        if (!res.ok || !data || !data.success) {
+          throw new Error((data && data.message) || "Invalid credentials. Please verify your email and password.");
         }
         onSuccess(data.data.user, data.data.token);
       } else {
@@ -4663,7 +4680,7 @@ function PolarisAuthGateModal({ isOpen, onClose, onSuccess, initialPrompt }) {
         if (role === "researcher" && !institution.trim()) {
           throw new Error("Institution name is required for polar researcher credentials.");
         }
-        const res = await fetch("/api/auth/register", {
+        const res = await fetch(apiBase + "/api/auth/register", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -4675,9 +4692,14 @@ function PolarisAuthGateModal({ isOpen, onClose, onSuccess, initialPrompt }) {
             designation: designation.trim()
           })
         });
-        const data = await res.json();
-        if (!res.ok || !data.success) {
-          throw new Error(data.message || "Registration could not be completed.");
+        let data = null;
+        try {
+          data = await res.json();
+        } catch (jsonErr) {
+          throw new Error("Backend server is offline or unreachable. Please ensure Backend API server (Port 5000) is running.");
+        }
+        if (!res.ok || !data || !data.success) {
+          throw new Error((data && data.message) || "Registration could not be completed.");
         }
         onSuccess(data.data.user, data.data.token);
       }
