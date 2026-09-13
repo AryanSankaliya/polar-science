@@ -33,19 +33,24 @@ export default function PolarisAuthPage({ onSuccess, onNavigateHome, initialProm
         });
         const rawText = await res.text();
         let data = null;
+        if (!rawText || !rawText.trim()) {
+          throw new Error("Server returned an empty response. If using Render free tier, the service may still be waking up. Please retry in a few seconds.");
+        }
         try {
           data = JSON.parse(rawText);
         } catch (jsonErr) {
           if (rawText.trim().startsWith("<") || res.status === 405 || res.status === 404) {
             throw new Error("Vercel Configuration Notice: Please set Environment Variable VITE_API_BASE_URL = https://your-backend.onrender.com in Vercel settings and redeploy.");
           }
-          throw new Error("Backend server is offline or unreachable. Please ensure Backend API server (Port 5000) is running.");
+          throw new Error("Backend server response is not valid JSON. Please ensure Backend API server is running.");
         }
         if (!res.ok || !data || !data.success) {
           throw new Error((data && data.message) || "Invalid credentials. Please verify your email and password.");
         }
         if (typeof onSuccess === "function") {
-          onSuccess(data.data.user, data.data.token);
+          const user = data.user || (data.data && data.data.user);
+          const token = data.token || (data.data && data.data.token);
+          onSuccess(user, token);
         }
       } else {
         if (!name.trim()) throw new Error("Full name is required.");
@@ -66,19 +71,24 @@ export default function PolarisAuthPage({ onSuccess, onNavigateHome, initialProm
         });
         const rawText = await res.text();
         let data = null;
+        if (!rawText || !rawText.trim()) {
+          throw new Error("Server returned an empty response. If using Render free tier, the service may still be waking up. Please retry in a few seconds.");
+        }
         try {
           data = JSON.parse(rawText);
         } catch (jsonErr) {
           if (rawText.trim().startsWith("<") || res.status === 405 || res.status === 404) {
             throw new Error("Vercel Configuration Notice: Please set Environment Variable VITE_API_BASE_URL = https://your-backend.onrender.com in Vercel settings and redeploy.");
           }
-          throw new Error("Backend server is offline or unreachable. Please ensure Backend API server (Port 5000) is running.");
+          throw new Error("Backend server response is not valid JSON. Please ensure Backend API server is running.");
         }
         if (!res.ok || !data || !data.success) {
           throw new Error((data && data.message) || "Registration could not be completed.");
         }
         if (typeof onSuccess === "function") {
-          onSuccess(data.data.user, data.data.token);
+          const user = data.user || (data.data && data.data.user);
+          const token = data.token || (data.data && data.data.token);
+          onSuccess(user, token);
         }
       }
     } catch (err) {

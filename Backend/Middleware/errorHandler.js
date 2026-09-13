@@ -2,8 +2,13 @@ const { error } = require('../Utilities/responseFormatter');
 
 /**
  * Global Express Error Handling Middleware
+ * Guarantees a structured JSON response under all circumstances (no empty bodies)
  */
 function errorHandler(err, req, res, next) {
+  if (res.headersSent) {
+    return next(err);
+  }
+
   console.error('[UNCAUGHT EXCEPTION]', {
     method: req.method,
     url: req.originalUrl,
@@ -13,21 +18,32 @@ function errorHandler(err, req, res, next) {
 
   // Handle common syntax/JSON parse errors
   if (err instanceof SyntaxError && err.status === 400 && 'body' in err) {
-    return error(res, 'Invalid JSON payload received.', 400);
+    return res.status(400).json({
+      success: false,
+      statusCode: 400,
+      message: 'Invalid JSON payload received.'
+    });
   }
 
   // Handle MongoDB duplicate key errors
   if (err.code === 11000) {
     const field = Object.keys(err.keyPattern || {})[0] || 'field';
-    return error(res, `A record with this ${field} already exists.`, 409);
+    return res.status(409).json({
+      success: false,
+      statusCode: 409,
+      message: `A record with this ${field} already exists.`
+    });
   }
 
   const statusCode = err.statusCode || err.status || 500;
-  const message = err.isOperational || process.env.NODE_ENV === 'development' 
-    ? err.message 
-    : 'An unexpected internal server error occurred.';
+  const message = err.message || 'An unexpected internal server error occurred.';
 
-  return error(res, message, statusCode, process.env.NODE_ENV === 'development' ? { stack: err.stack } : null);
+  return res.status(statusCode).json({
+    success: false,
+    statusCode,
+    message,
+    errors: process.env.NODE_ENV === 'development' ? { stack: err.stack } : undefined
+  });
 }
 
 module.exports = errorHandler;

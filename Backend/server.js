@@ -26,14 +26,51 @@ const unifiedApiRoutes = require('./routes/apiRoutes');
 const app = express();
 const PORT = process.env.PORT || CONFIG_PORT || 5000;
 
-// CORS configuration (allowing React frontend at localhost:5173 and other origins)
-app.use(cors({
-  origin: CORS_ORIGINS,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization']
-}));
+// CORS configuration (allowing React frontend on localhost, Vercel deployments, and production origins)
+const corsOptions = {
+  origin: (origin, callback) => {
+    // Allow non-browser requests (curl, postman, server-to-server)
+    if (!origin) return callback(null, true);
+    // Allow wildcard or if CORS_ORIGIN is not configured
+    if (!process.env.CORS_ORIGIN || process.env.CORS_ORIGIN === '*' || (Array.isArray(CORS_ORIGINS) && CORS_ORIGINS.includes('*'))) {
+      return callback(null, true);
+    }
+    // Allow all Vercel deployments (*.vercel.app)
+    if (origin.endsWith('.vercel.app')) {
+      return callback(null, true);
+    }
+    // Allow localhost / 127.0.0.1
+    if (origin.startsWith('http://localhost') || origin.startsWith('http://127.0.0.1')) {
+      return callback(null, true);
+    }
+    // Check specific configured origins
+    if (Array.isArray(CORS_ORIGINS) && CORS_ORIGINS.includes(origin)) {
+      return callback(null, true);
+    }
+    return callback(null, true);
+  },
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'Accept', 'X-Requested-With', 'Origin'],
+  credentials: true,
+  optionsSuccessStatus: 200
+};
+
+app.use(cors(corsOptions));
+// Handle explicit preflight for all routes
+app.options('*', cors(corsOptions));
 
 app.use(express.json());
+
+// Root health & status check (prevents empty/404 response on Render cold-start or root health probes)
+app.get('/', (req, res) => {
+  res.json({
+    status: 'online',
+    service: 'Polar Research Information Platform API (NCPOR)',
+    version: '1.0.0',
+    documentation: `http://localhost:${PORT}/api/docs`,
+    timestamp: new Date().toISOString()
+  });
+});
 
 // Apply rate limiter to /api
 app.use('/api', apiLimiter);
@@ -77,6 +114,14 @@ app.get('/api/health', (req, res) => {
     version: '1.0.0',
     documentation: `http://localhost:${PORT}/api/docs`,
     timestamp: new Date().toISOString()
+  });
+});
+
+// Catch-all 404 for /api routes - guarantees JSON response, never empty body or HTML
+app.use('/api', (req, res) => {
+  res.status(404).json({
+    success: false,
+    message: `API endpoint ${req.method} ${req.originalUrl} not found.`
   });
 });
 

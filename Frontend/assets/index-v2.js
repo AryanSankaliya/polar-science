@@ -4155,7 +4155,7 @@ function PolarisAuthPageView({ onSuccess, onNavigateHome, initialPrompt, current
           throw new Error((data && data.message) || "Invalid credentials. Please verify your email and password.");
         }
         if (typeof onSuccess === "function") {
-          onSuccess(data.data.user, data.data.token);
+          onSuccess(data.user || (data.data && data.data.user), data.token || (data.data && data.data.token));
         }
       } else {
         if (!name.trim()) throw new Error("Full name is required.");
@@ -4188,7 +4188,7 @@ function PolarisAuthPageView({ onSuccess, onNavigateHome, initialPrompt, current
           throw new Error((data && data.message) || "Registration could not be completed.");
         }
         if (typeof onSuccess === "function") {
-          onSuccess(data.data.user, data.data.token);
+          onSuccess(data.user || (data.data && data.data.user), data.token || (data.data && data.data.token));
         }
       }
     } catch (err) {
@@ -4686,7 +4686,7 @@ function PolarisAuthGateModal({ isOpen, onClose, onSuccess, initialPrompt }) {
         if (!res.ok || !data || !data.success) {
           throw new Error((data && data.message) || "Invalid credentials. Please verify your email and password.");
         }
-        onSuccess(data.data.user, data.data.token);
+        onSuccess(data.user || (data.data && data.data.user), data.token || (data.data && data.data.token));
       } else {
         if (!name.trim()) throw new Error("Full name is required.");
         if (role === "researcher" && !institution.trim()) {
@@ -4717,7 +4717,7 @@ function PolarisAuthGateModal({ isOpen, onClose, onSuccess, initialPrompt }) {
         if (!res.ok || !data || !data.success) {
           throw new Error((data && data.message) || "Registration could not be completed.");
         }
-        onSuccess(data.data.user, data.data.token);
+        onSuccess(data.user || (data.data && data.data.user), data.token || (data.data && data.data.token));
       }
     } catch (err) {
       setErrorMsg(err.message || "Authentication failed. Please check network connection.");

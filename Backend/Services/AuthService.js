@@ -5,22 +5,35 @@ const { formatUserResponse, UserRoles } = require('../Models/User');
 const { JWT_SECRET, JWT_EXPIRES_IN, REFRESH_TOKEN_EXPIRES_IN } = require('../Configuration/jwtConfig');
 
 class AuthService {
+  getSecret() {
+    return process.env.JWT_SECRET || JWT_SECRET || "polaris_default_jwt_secret_2026";
+  }
+
   generateToken(payload) {
-    return jwt.sign(payload, JWT_SECRET, { expiresIn: JWT_EXPIRES_IN });
+    const secret = this.getSecret();
+    return jwt.sign(payload, secret, { expiresIn: '7d' });
   }
 
   generateRefreshToken(payload) {
-    return jwt.sign(payload, JWT_SECRET, { expiresIn: REFRESH_TOKEN_EXPIRES_IN });
+    const secret = this.getSecret();
+    return jwt.sign(payload, secret, { expiresIn: '7d' });
   }
 
   async register(userData) {
-    const { email, password, name, role, institution, designation } = userData;
+    const { email, password, name, role, institution, designation } = userData || {};
     if (!email || !password || !name) {
       throw { statusCode: 400, message: 'Email, password, and name are required.' };
     }
 
     const cleanEmail = email.toLowerCase().trim();
-    const existing = await userRepository.findByEmail(cleanEmail);
+    let existing = null;
+    try {
+      existing = await userRepository.findByEmail(cleanEmail);
+    } catch (err) {
+      console.error('[AUTH DB ERROR findByEmail]:', err.message);
+      throw { statusCode: 500, message: 'Database query failed during account lookup.' };
+    }
+
     if (existing) {
       throw { statusCode: 409, message: 'An account with this email address already exists.' };
     }
@@ -40,30 +53,42 @@ class AuthService {
     }
 
     const username = userData.username || (cleanEmail.split('@')[0] + '_' + Math.floor(1000 + Math.random() * 9000));
+    const fullName = name.trim();
 
-    const newUser = await userRepository.insertOne({
-      email: cleanEmail,
-      username,
-      password_hash,
-      name: name.trim(),
-      role: assignedRole,
-      institution: inst,
-      designation: designation ? designation.trim() : '',
-      refresh_tokens: []
-    });
+    let newUser;
+    try {
+      newUser = await userRepository.insertOne({
+        email: cleanEmail,
+        username,
+        password_hash,
+        name: fullName,
+        full_name: fullName,
+        role: assignedRole,
+        institution: inst,
+        designation: designation ? designation.trim() : '',
+        refresh_tokens: []
+      });
+    } catch (err) {
+      console.error('[AUTH DB ERROR insertOne]:', err.message);
+      throw { statusCode: 500, message: 'Failed to create user record in database.' };
+    }
 
     const userId = newUser.id || (newUser._id ? newUser._id.toString() : '');
     const tokenPayload = {
-      userId: userId,
+      userId: newUser._id || userId,
       id: userId,
       email: newUser.email,
-      name: newUser.name,
+      name: newUser.full_name || newUser.name,
       role: assignedRole
     };
 
     const token = this.generateToken(tokenPayload);
     const refreshToken = this.generateRefreshToken(tokenPayload);
-    await userRepository.addRefreshToken(newUser._id || userId, refreshToken);
+    try {
+      await userRepository.addRefreshToken(newUser._id || userId, refreshToken);
+    } catch (err) {
+      console.warn('[AUTH NOTICE] Could not persist refresh token:', err.message);
+    }
 
     return {
       user: formatUserResponse(newUser),
@@ -78,7 +103,14 @@ class AuthService {
     }
 
     const cleanEmail = email.toLowerCase().trim();
-    const user = await userRepository.findByEmail(cleanEmail);
+    let user = null;
+    try {
+      user = await userRepository.findByEmail(cleanEmail);
+    } catch (err) {
+      console.error('[AUTH DB ERROR login findByEmail]:', err.message);
+      throw { statusCode: 500, message: 'Database connection failed. Please try again shortly.' };
+    }
+
     if (!user) {
       throw { statusCode: 401, message: 'Invalid email or password.' };
     }
@@ -90,21 +122,31 @@ class AuthService {
 
     const userId = user._id ? user._id.toString() : user.id;
     const userRole = (user.role || UserRoles.STUDENT).toString().toLowerCase().trim();
+    const userName = user.full_name || user.name || 'Polaris User';
 
     const tokenPayload = {
-      userId: userId,
+      userId: user._id || userId,
       id: userId,
       email: user.email,
-      name: user.name,
+      name: userName,
       role: userRole
     };
 
     const token = this.generateToken(tokenPayload);
     const refreshToken = this.generateRefreshToken(tokenPayload);
-    await userRepository.addRefreshToken(user._id || userId, refreshToken);
+    try {
+      await userRepository.addRefreshToken(user._id || userId, refreshToken);
+    } catch (err) {
+      console.warn('[AUTH NOTICE] Could not persist refresh token:', err.message);
+    }
+
+    const formattedUser = formatUserResponse(user);
+    if (formattedUser && !formattedUser.name) {
+      formattedUser.name = userName;
+    }
 
     return {
-      user: formatUserResponse(user),
+      user: formattedUser,
       token,
       refreshToken
     };
