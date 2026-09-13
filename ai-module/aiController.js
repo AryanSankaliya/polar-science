@@ -25,11 +25,10 @@ export const POLAR_ANCHORS = {
 };
 
 // Configured model request: gemini-2.5-flash with fast active model fallback cached in memory
-let activeGenerationModel = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+let activeGenerationModel = process.env.GEMINI_MODEL || 'gemini-2.0-flash';
 
 /**
  * Warm up and verify model selection at server boot time.
- * If gemini-2.5-flash is 404 deprecated on this key, caches fast fallback model.
  */
 export async function warmupModel() {
   if (!isApiKeyConfigured()) return;
@@ -43,7 +42,7 @@ export async function warmupModel() {
   } catch (err) {
     const isNotFound = err?.status === 404 || err?.message?.includes('404') || err?.message?.includes('not found') || err?.message?.includes('no longer available');
     if (isNotFound) {
-      activeGenerationModel = 'gemini-3.5-flash-lite';
+      activeGenerationModel = 'gemini-1.5-flash';
     }
   }
 }

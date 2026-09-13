@@ -2,8 +2,8 @@ import { geminiClient, getGeminiClient, isApiKeyConfigured } from '../geminiClie
 import { POLAR_ANCHORS } from '../aiController.js';
 import { FALLBACK_POLAR_CONTEXT } from '../retrieverService.js';
 
-// Primary requested model is gemini-2.5-flash with fast active model fallback cached in memory
-let activeGenerationModel = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+// Primary requested model is gemini-2.0-flash with fast active model fallback cached in memory
+let activeGenerationModel = process.env.GEMINI_MODEL || 'gemini-2.0-flash';
 
 /**
  * STRICT SYSTEM INSTRUCTION CONTRACT — 3-STATION POINT-VIEW ARCHITECTURE
@@ -319,9 +319,9 @@ export async function generateGroundedAnswer(question, mode = 'student', retriev
   } catch (modelErr) {
     const isNotFound = modelErr?.status === 404 || modelErr?.message?.includes('404') || modelErr?.message?.includes('not found') || modelErr?.message?.includes('no longer available');
     
-    if (isNotFound || activeGenerationModel === 'gemini-2.5-flash') {
+    if (isNotFound || activeGenerationModel === 'gemini-2.0-flash') {
       // Graceful fallback to verified available model
-      activeGenerationModel = 'gemini-3.5-flash-lite';
+      activeGenerationModel = 'gemini-1.5-flash';
       try {
         const fallbackResponse = await client.models.generateContent({
           model: activeGenerationModel,
