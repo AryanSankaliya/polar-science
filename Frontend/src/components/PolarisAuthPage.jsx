@@ -31,10 +31,14 @@ export default function PolarisAuthPage({ onSuccess, onNavigateHome, initialProm
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ email: email.trim(), password })
         });
+        const rawText = await res.text();
         let data = null;
         try {
-          data = await res.json();
+          data = JSON.parse(rawText);
         } catch (jsonErr) {
+          if (rawText.trim().startsWith("<") || res.status === 405 || res.status === 404) {
+            throw new Error("Vercel Configuration Notice: Please set Environment Variable VITE_API_BASE_URL = https://your-backend.onrender.com in Vercel settings and redeploy.");
+          }
           throw new Error("Backend server is offline or unreachable. Please ensure Backend API server (Port 5000) is running.");
         }
         if (!res.ok || !data || !data.success) {
@@ -60,10 +64,14 @@ export default function PolarisAuthPage({ onSuccess, onNavigateHome, initialProm
             designation: designation.trim()
           })
         });
+        const rawText = await res.text();
         let data = null;
         try {
-          data = await res.json();
+          data = JSON.parse(rawText);
         } catch (jsonErr) {
+          if (rawText.trim().startsWith("<") || res.status === 405 || res.status === 404) {
+            throw new Error("Vercel Configuration Notice: Please set Environment Variable VITE_API_BASE_URL = https://your-backend.onrender.com in Vercel settings and redeploy.");
+          }
           throw new Error("Backend server is offline or unreachable. Please ensure Backend API server (Port 5000) is running.");
         }
         if (!res.ok || !data || !data.success) {

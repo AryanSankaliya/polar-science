@@ -99,6 +99,15 @@ const server = app.listen(PORT, () => {
   console.log('====================================================');
 });
 
+server.on('error', (err) => {
+  if (err.code === 'EADDRINUSE') {
+    console.log(`\n❄️  [AI Module Notice] Port ${PORT} is ALREADY running and active!`);
+    console.log(`    (The AI Microservice is already online on http://localhost:${PORT})\n`);
+  } else {
+    console.error('Server error:', err);
+  }
+});
+
 // Graceful shutdown handling
 process.on('SIGTERM', () => {
   console.log('SIGTERM signal received: closing HTTP server');
