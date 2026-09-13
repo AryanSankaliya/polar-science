@@ -139,8 +139,8 @@ async function handleAIQuery(req, res) {
     const q = rawQuery.trim();
     const qLower = q.toLowerCase();
 
-    // Direct Integration with user's AI Module microservice (Port 5002)
-    const aiModuleUrl = process.env.AI_MODULE_URL || 'http://localhost:5002';
+    // Direct Integration with user's AI Module microservice
+    const aiModuleUrl = process.env.AI_MODULE_URL || 'http://localhost:5001';
     try {
       const mode = req.body.mode || (requestedDomain === 'outreach' ? 'student' : 'researcher');
       const aiResponse = await fetch(`${aiModuleUrl}/api/query`, {
