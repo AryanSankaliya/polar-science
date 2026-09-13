@@ -28,6 +28,10 @@ export default defineConfig({
     open: false,
     host: true,
     proxy: {
+      '/api/ai': {
+        target: 'http://localhost:5001',
+        changeOrigin: true
+      },
       '/api': {
         target: 'http://localhost:5000',
         changeOrigin: true

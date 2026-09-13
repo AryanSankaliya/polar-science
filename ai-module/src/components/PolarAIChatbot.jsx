@@ -43,8 +43,9 @@ import {
  */
 
 // Target AI Microservice Endpoint
-const TARGET_API_URL = 'http://localhost:5001/api/ai/ask';
-const FALLBACK_API_URL = 'http://localhost:5001/api/query';
+const aiBaseUrl = (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_AI_API_BASE_URL) || '';
+const TARGET_API_URL = aiBaseUrl ? `${aiBaseUrl}/api/ai/ask` : '/api/ai/ask';
+const FALLBACK_API_URL = aiBaseUrl ? `${aiBaseUrl}/api/query` : '/api/query';
 
 // Verified Polar Scientific Ground-Truth Anchors (Ministry of Earth Sciences / NCPOR)
 const POLAR_ANCHORS = {
